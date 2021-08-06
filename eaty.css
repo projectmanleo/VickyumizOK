@@ -1,0 +1,23 @@
+body{
+
+background-color:yellow;
+background-image: url(map.jpeg);
+animation-name:roll;
+animation-duration:10s;
+animation-iteration-count:infinite;
+
+}
+/*
+@keyframes roll{
+
+
+10% {background-color:red;}
+25% {background-color:purple;}
+50% {background-color:green;}
+80% {background-color:orange;}
+100% {background-color:blue;}
+
+
+}
+
+*/

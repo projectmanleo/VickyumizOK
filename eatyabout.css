@@ -1,0 +1,43 @@
+header
+
+{
+
+background-color:red;
+
+}
+/*
+body {
+
+    background-size: auto;
+    background-color: darkgreen;
+}
+
+*/
+.slide {
+    
+    background-image: url(fufu.jpeg);
+    background-repeat: no-repeat;
+    background-image: 70%;
+    padding-left:20%;
+    padding-top: 20%;
+    background-position-x: center;
+    background-position-y: center;
+    background-position: relative;
+    animation-name: change;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change {
+
+
+25% {background-image: url(achu.jpeg);}
+
+50% {background-image: url(chawarma.jpeg);}
+
+75% {background-image: url(meatpie.jpeg);}
+
+100% {background-image: url(fish.jpeg);}
+
+}

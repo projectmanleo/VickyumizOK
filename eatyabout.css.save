@@ -1,0 +1,18 @@
+body{
+
+background:url("fufu.jpeg");
+animation-name:change;
+animation-duration:6s;
+animation-iteration-count:infinite;
+
+}
+
+@keyframes roll{
+
+
+10% {background:url("");}
+50% {background:url("");}
+100% {background:url("");}
+
+}
+

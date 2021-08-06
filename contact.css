@@ -1,0 +1,41 @@
+body {
+
+    background-image: url(map.jpeg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    padding-top: 3px;
+    margin-left: 200px;
+    padding-left: 200px;
+    background-position-x: center;
+    background-color: tomato;
+    animation-name:roll;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes roll{
+
+
+10% {background-color:red;}
+25% {background-color:purple;}
+50% {background-color:green;}
+80% {background-color:orange;}
+100% {background-color:blue;}
+
+
+
+}
+
+h4 {
+
+    bottom: 0;
+    padding-top: 480px;
+    background-position-x: center;
+}
+h3 {
+
+    bottom: 0;
+    padding-top: 500px;
+    background-position-x: center;
+}

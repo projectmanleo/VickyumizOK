@@ -1,0 +1,17 @@
+li{
+
+    background-color: brown;
+    display: inline;
+    padding : 10px;
+    margin: 5px;
+    float: right;
+    border-radius: 50%;
+    
+}
+li:hover {
+    
+    background-color:yellowgreen;
+
+
+
+}

@@ -1,0 +1,49 @@
+<?php
+
+<html>
+
+<body>
+<a href="home.php"> Home </a> -
+<a href="about.php"> About </a> -
+<a href="contact.php"> Contact </a> -
+<a href="team.php"> Our Team </a> -
+
+
+</body>
+
+
+
+
+</html>
+
+
+session_start();
+
+if (!$_SESSION['username'] || empty($_SESSION['username']))
+//if (!$_SESSION['drinkspot'])
+
+{ 
+
+    header('location:configeatybest.php');
+
+
+ };
+
+echo 'Welcome'.$_SESSION['username']. 'Heeeeeyyyy !!!';
+
+
+
+?>
+
+
+
+<h1> WELCOME TO YUMIZ !</h1>
+<p>This is the technological site for wonders and glory in eating and drinking<p>
+<p>Whatever meal or drink, whenever or wherever, Yumiz is always available with Restaurants on call at happy hours<p><br>
+<p>This is the technological site for wonders and glory in eating and drinking<p>
+<p> You need a great time !<p>
+<p> To choose your table option click ...TABLE<p>
+
+<a href="table.php">TABLE</a>
+<a href="configeatybest.php">logout...!</a>
+

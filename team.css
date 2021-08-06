@@ -1,0 +1,23 @@
+body {
+
+background-image: url(team.jpeg);
+background-repeat: no-repeat;
+background-position: relative;
+background-size: 40%;
+animation-name: team;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+}
+
+@keyframes team {
+
+    
+}
+
+h3:hover{
+
+    transform: translateY(-40);
+
+
+
+}
